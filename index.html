@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Tint Happens Inc. | Mobile Truck & Car Window Tinting Bradford & GTA</title>
+  <meta name="description" content="Tint Happens Inc. mobile truck and car window tinting at your location. Pre-cut patterns, black tint, fast SMS quote. Bradford and GTA." />
+  <meta name="theme-color" content="#07090f" />
+
+  <!-- Google tag placeholders: keep one copy only when publishing -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W39KYJZQNF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-W39KYJZQNF');
+    gtag('config', 'AW-753512063');
+  </script>
+
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; max-width: 100%; overflow-x: hidden; }
+    body {
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 20% 0%, rgba(45, 135, 255, .20), transparent 28rem),
+        radial-gradient(circle at 90% 10%, rgba(255, 117, 78, .16), transparent 26rem),
+        linear-gradient(180deg, #07090f 0%, #0b0e15 45%, #06070b 100%);
+      color: #f6f7fb;
+      position: relative;
+    }
+    a { color: inherit; text-decoration: none; }
+    img, svg, video, canvas { max-width: 100%; height: auto; }
+    button, input, select { font: inherit; }
+
+    :root {
+      --bg: #07090f;
+      --panel: rgba(255,255,255,.07);
+      --panel2: rgba(255,255,255,.11);
+      --line: rgba(255,255,255,.15);
+      --text: #f6f7fb;
+      --muted: #aeb6c7;
+      --blue: #4aa3ff;
+      --peach: #ffb18a;
+      --red: #ff3b3b;
+      --green: #80ffbd;
+      --shadow: 0 24px 80px rgba(0,0,0,.45);
+      --radius: 24px;
+    }
+
+    .wrap { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
+    .nav {
+      position: sticky; top: 0; z-index: 30;
+      backdrop-filter: blur(18px);
+      background: rgba(7,9,15,.74);
+      border-bottom: 1px solid var(--line);
+    }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 12px 0; }
+    .brand { display: flex; align-items: center; gap: 10px; font-weight: 900; letter-spacing: .06em; text-transform: uppercase; }
+    .eye { width: 38px; height: 38px; border-radius: 50%; background: linear-gradient(135deg, #111827, #35425a); border: 1px solid var(--line); display: grid; place-items: center; box-shadow: inset 0 0 22px rgba(74,163,255,.35); }
+    .eye:before { content: "◉"; color: var(--blue); font-size: 18px; }
+    .nav-actions { display: flex; gap: 10px; }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      min-height: 46px; padding: 12px 16px; border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.18); background: #111827; color: var(--text);
+      font-weight: 800; cursor: pointer; transition: .2s ease;
+      box-shadow: 0 12px 28px rgba(0,0,0,.25);
+    }
+    .btn:hover { transform: translateY(-1px); border-color: var(--peach); background: var(--peach); color: #111; }
+    .btn.primary { background: linear-gradient(135deg, var(--blue), #2b65ff); border-color: rgba(255,255,255,.22); color: white; }
+    .btn.ghost { background: rgba(255,255,255,.06); }
+
+    .hero { padding: 54px 0 28px; }
+    .hero-grid { display: grid; grid-template-columns: 1.04fr .96fr; gap: 28px; align-items: center; }
+    .kicker { display: inline-flex; gap: 8px; align-items: center; color: var(--green); font-weight: 900; text-transform: uppercase; letter-spacing: .12em; font-size: 12px; }
+    h1 { font-size: clamp(42px, 7vw, 84px); line-height: .92; margin: 16px 0 14px; letter-spacing: -.06em; }
+    .lead { color: var(--muted); font-size: clamp(17px, 2vw, 22px); line-height: 1.5; max-width: 720px; }
+    .hero-warning { color: var(--red); font-weight: 1000; letter-spacing: .05em; text-transform: uppercase; margin: 12px 0; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+    .trust { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px; }
+    .pill { border: 1px solid var(--line); background: rgba(255,255,255,.06); color: #d9deea; border-radius: 999px; padding: 8px 11px; font-size: 13px; font-weight: 750; }
+
+    .phone-card {
+      position: relative; min-height: 560px; border-radius: 38px; padding: 18px;
+      background: linear-gradient(145deg, rgba(255,255,255,.16), rgba(255,255,255,.04));
+      border: 1px solid rgba(255,255,255,.18); box-shadow: var(--shadow); overflow: hidden;
+    }
+    .phone-card:before { content:""; position: absolute; inset: -30% -20%; background: conic-gradient(from 210deg, transparent, rgba(74,163,255,.22), rgba(255,177,138,.22), transparent); animation: spin 9s linear infinite; opacity: .6; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .mock { position: relative; z-index: 1; min-height: 524px; border-radius: 28px; background: #080b12; border: 1px solid rgba(255,255,255,.16); padding: 18px; overflow: hidden; }
+    .mock-top { display:flex; justify-content:space-between; align-items:center; color:#8791a7; font-size:12px; margin-bottom: 18px; }
+    .mock-car { height: 210px; border-radius: 26px; background: linear-gradient(180deg, #171d2b, #0b0f18); border:1px solid var(--line); display:grid; place-items:center; position:relative; overflow:hidden; }
+    .mock-car:before { content:""; width: 78%; height: 46%; border-radius: 42% 42% 18% 18%; border: 3px solid rgba(255,255,255,.22); background: linear-gradient(90deg, rgba(74,163,255,.22), rgba(0,0,0,.55)); box-shadow: 0 28px 0 -18px rgba(255,255,255,.18); }
+    .mock-car:after { content:"Pre-cut patterns. Mobile install."; position:absolute; bottom:16px; color:#cbd3e3; font-size:13px; font-weight:800; }
+    .mock-list { display:grid; gap:10px; margin-top:18px; }
+    .mock-row { display:flex; justify-content:space-between; gap:10px; padding:12px; border-radius:16px; background:rgba(255,255,255,.07); border:1px solid var(--line); color:#dfe5f2; }
+    .mock-price { font-size: 38px; font-weight: 1000; margin-top: 18px; letter-spacing: -.04em; }
+
+    section { padding: 38px 0; }
+    .section-head { display:flex; justify-content:space-between; gap:18px; align-items:end; margin-bottom:18px; }
+    h2 { font-size: clamp(28px, 4vw, 48px); line-height: 1; margin:0; letter-spacing:-.04em; }
+    .sub { color: var(--muted); line-height: 1.55; max-width: 650px; }
+
+    .builder { border:1px solid rgba(255,255,255,.16); background: rgba(255,255,255,.07); border-radius: var(--radius); padding: 18px; box-shadow: var(--shadow); }
+    .builder-grid { display:grid; grid-template-columns: 1.05fr .95fr; gap:18px; }
+    .panel { border:1px solid var(--line); background: rgba(9,13,22,.72); border-radius: 22px; padding: 16px; }
+    .label { color:#dce4f3; font-weight:900; margin: 0 0 10px; }
+    .choice-grid { display:grid; grid-template-columns: repeat(2, 1fr); gap:10px; }
+    .choice, .vlt, .film {
+      border:1px solid var(--line); background: rgba(255,255,255,.06); color: var(--text);
+      border-radius: 16px; padding: 12px; cursor:pointer; text-align:left; min-height: 54px;
+    }
+    .choice.active, .vlt.active, .film.active { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(74,163,255,.18); background: rgba(74,163,255,.16); }
+    .small { display:block; color: var(--muted); font-size:12px; margin-top:4px; line-height:1.35; }
+    .vehicle-stage { border-radius:22px; border:1px solid var(--line); background: linear-gradient(180deg, #111827, #080b12); padding:14px; overflow:hidden; margin-top: 14px; }
+    .vehicle-shape { position:relative; height: 235px; border-radius: 20px; background: radial-gradient(circle at 50% 20%, rgba(74,163,255,.2), transparent 42%), #0a0f1a; display:grid; place-items:center; }
+    .car-body { width:82%; height:42%; border:3px solid rgba(255,255,255,.22); border-radius: 44% 44% 18% 18%; position:relative; background:linear-gradient(90deg, rgba(74,163,255,.12), rgba(0,0,0,.45)); }
+    .win { position:absolute; top:20%; height:32%; border-radius: 8px; background: rgba(74,163,255,.18); border:1px solid rgba(255,255,255,.24); cursor:pointer; }
+    .win.active { background: rgba(74,163,255,.55); box-shadow:0 0 18px rgba(74,163,255,.75); }
+    .front-left { left:18%; width:16%; } .front-right { left:36%; width:16%; } .rear-left { left:54%; width:14%; } .rear-right { left:70%; width:14%; }
+    .rear-window { right:5%; top:31%; width:8%; height:20%; border-radius: 50%; }
+    .vlt-strip { display:grid; grid-template-columns: repeat(5,1fr); gap:8px; }
+    .vlt { text-align:center; min-height: 76px; display:flex; flex-direction:column; justify-content:center; align-items:center; }
+    .vlt b { font-size:20px; }
+    .film-list { display:grid; gap:8px; }
+    .tier { color: var(--peach); font-weight: 950; margin: 12px 0 8px; font-size: 13px; text-transform: uppercase; letter-spacing:.08em; }
+    .estimate { position: sticky; top: 82px; }
+    .price { font-size: clamp(46px, 8vw, 74px); font-weight: 1000; letter-spacing: -.07em; margin: 6px 0; }
+    .estimate-lines { display:grid; gap:8px; margin: 14px 0; color:#d8dfef; }
+    .line { display:flex; justify-content:space-between; gap:12px; border-bottom:1px dashed rgba(255,255,255,.14); padding-bottom:8px; }
+    .form { display:grid; gap:10px; margin-top: 12px; }
+    input, select { width:100%; border-radius:14px; border:1px solid var(--line); background: rgba(255,255,255,.08); color:white; padding:13px; outline:none; }
+    option { color:#111; }
+
+    .cards { display:grid; grid-template-columns: repeat(3, 1fr); gap:14px; }
+    .split { display:grid; grid-template-columns: 1fr 1fr; gap:14px; }
+    .mini-grid { display:grid; grid-template-columns: repeat(4, 1fr); gap:10px; margin-top:14px; }
+    .mini { border:1px solid var(--line); background:rgba(255,255,255,.06); border-radius:18px; padding:14px; }
+    .mini b { display:block; font-size:22px; margin-bottom:4px; }
+    .mini span { color:var(--muted); font-size:13px; line-height:1.35; }
+    .process { display:grid; gap:12px; }
+    .step { display:grid; grid-template-columns:54px 1fr; gap:12px; align-items:start; border:1px solid var(--line); background:rgba(255,255,255,.06); border-radius:20px; padding:14px; }
+    .step strong { display:block; font-size:18px; margin-bottom:4px; }
+    .step p { color:var(--muted); margin:0; line-height:1.45; }
+    .glass-wall { min-height:380px; border:1px solid var(--line); border-radius:26px; overflow:hidden; background:linear-gradient(135deg,#0a0f1a,#151b29); position:relative; }
+    .glass-wall:before { content:""; position:absolute; inset:30px; border-radius:24px; background:linear-gradient(90deg, rgba(74,163,255,.05), rgba(74,163,255,.28), rgba(0,0,0,.65)); border:1px solid rgba(255,255,255,.16); transform:skewX(-8deg); }
+    .glass-wall:after { content:"20% / 35% / 55% / 70%"; position:absolute; left:24px; bottom:24px; color:#dfe7f7; font-weight:1000; letter-spacing:.08em; }
+    .price-table { display:grid; grid-template-columns: repeat(5, 1fr); gap:10px; margin-top:12px; }
+    .price-tile { border:1px solid var(--line); border-radius:18px; padding:14px; background:rgba(255,255,255,.06); }
+    .price-tile b { font-size:20px; display:block; }
+    .price-tile span { color:var(--muted); font-size:13px; }
+    .cta-band { border:1px solid rgba(255,255,255,.18); border-radius:28px; padding:24px; background:linear-gradient(135deg, rgba(74,163,255,.22), rgba(255,177,138,.12)); display:flex; justify-content:space-between; gap:18px; align-items:center; box-shadow:var(--shadow); }
+    .card { border:1px solid var(--line); background: rgba(255,255,255,.07); border-radius: 22px; padding:18px; min-height: 190px; }
+    .card h3 { margin:0 0 8px; font-size: 22px; }
+    .card p { color: var(--muted); line-height:1.55; margin:0; }
+    .num { width:38px; height:38px; border-radius:12px; display:grid; place-items:center; background:rgba(74,163,255,.16); border:1px solid rgba(74,163,255,.35); font-weight:1000; margin-bottom:12px; }
+
+    .faq { display:grid; gap:10px; }
+    details { border:1px solid var(--line); border-radius:18px; padding:15px; background:rgba(255,255,255,.06); }
+    summary { cursor:pointer; font-weight:900; }
+    details p { color:var(--muted); line-height:1.55; }
+    footer { padding: 34px 0 110px; color:#9ba5ba; border-top:1px solid var(--line); margin-top: 30px; }
+    .sticky-mobile { display:none; position:fixed; left:12px; right:12px; bottom:12px; z-index: 50; gap:10px; }
+    .sticky-mobile .btn { flex:1; }
+
+    @media (max-width: 920px) {
+      .wrap { width: min(100% - 22px, 760px); }
+      .hero { padding-top: 30px; }
+      .hero-grid, .builder-grid { grid-template-columns: 1fr; }
+      .phone-card { min-height: 430px; }
+      .mock { min-height: 390px; }
+      .mock-car { height: 160px; }
+      .section-head { display:block; }
+      .choice-grid { grid-template-columns: 1fr 1fr; }
+      .vlt-strip { grid-template-columns: repeat(5, minmax(76px, 1fr)); overflow-x:auto; padding-bottom:4px; }
+      .cards, .split { grid-template-columns: 1fr; }
+      .mini-grid, .price-table { grid-template-columns: 1fr 1fr; }
+      .cta-band { display:block; }
+      .cta-band .hero-actions { margin-top:16px; }
+      .estimate { position: static; }
+      .nav-actions .ghost { display:none; }
+      .sticky-mobile { display:flex; }
+      body { padding-bottom: 82px; }
+    }
+    @media (max-width: 520px) {
+      .nav-inner { gap:8px; }
+      .brand span { font-size: 13px; }
+      .btn { padding: 11px 12px; font-size: 14px; }
+      .hero-actions .btn { width:100%; }
+      .choice-grid, .mini-grid, .price-table { grid-template-columns: 1fr; }
+      .vehicle-shape { height: 188px; }
+      .car-body { width:90%; }
+      .panel, .builder { padding: 12px; border-radius: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top" aria-label="Tint Happens home"><span class="eye"></span><span>Tint Happens</span></a>
+      <div class="nav-actions">
+        <a class="btn ghost" href="tel:+16479892972" data-track="call_now_click">Call Now</a>
+        <a class="btn primary" href="sms:+16479892972?body=Hi%20Tint%20Happens%2C%20I%20want%20a%20window%20tint%20quote." data-track="text_for_quote_click">Text Quote</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top">
+    <header class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="kicker">Bradford based • Serving GTA</div>
+          <h1>Mobile tinting that does not feel like a sketchy parking lot deal.</h1>
+          <div class="hero-warning">YOUR NEW TINT INSTALLATION IS OUR RESPONSIBILITY.</div>
+          <p class="lead">Black automotive window tint for cars and trucks. Pre-cut window patterns prepared on a professional plotter, then installed at your location. No shop visit. No mystery menu. No “trust me bro” pricing circus.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#quote">Build Quote In 20 Seconds</a>
+            <a class="btn ghost" href="tel:+16479892972" data-track="call_now_click">Call +1 647 989 2972</a>
+          </div>
+          <div class="trust">
+            <span class="pill">Mobile service</span><span class="pill">Professional pre-cut patterns</span><span class="pill">Cars & trucks</span><span class="pill">Black tint only</span><span class="pill">Fast SMS quote</span>
+          </div>
+        </div>
+        <aside class="phone-card" aria-label="Website preview card">
+          <div class="mock">
+            <div class="mock-top"><span>TINT HAPPENS</span><span>QUOTE LIVE</span></div>
+            <div class="mock-car"></div>
+            <div class="mock-list">
+              <div class="mock-row"><b>Vehicle</b><span>Truck</span></div>
+              <div class="mock-row"><b>Package</b><span>Front Two</span></div>
+              <div class="mock-row"><b>Film</b><span>Nano Ceramic</span></div>
+            </div>
+            <div class="mock-price">From $260</div>
+          </div>
+        </aside>
+      </div>
+    </header>
+
+    <section id="quote">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>Build your tint quote without filling a form from 2009.</h2>
+            <p class="sub">Choose vehicle, windows, VLT, film, then send it by text. Civilization finally achieved one useful thing.</p>
+          </div>
+        </div>
+
+        <div class="builder">
+          <div class="builder-grid">
+            <div class="panel">
+              <p class="label">1. Vehicle type</p>
+              <div class="choice-grid" data-group="vehicle">
+                <button class="choice active" data-vehicle="Car">Car<span class="small">Sedan / coupe / hatch</span></button>
+                <button class="choice" data-vehicle="SUV">SUV<span class="small">Family tank, but tinted</span></button>
+                <button class="choice" data-vehicle="Truck">Truck<span class="small">Front two is the classic</span></button>
+                <button class="choice" data-vehicle="Van">Van<span class="small">Text for exact quote</span></button>
+              </div>
+
+              <div class="vehicle-stage">
+                <p class="label">2. Select windows</p>
+                <div class="choice-grid" data-group="package">
+                  <button class="choice active" data-package="Front Two">Front Two<span class="small">Driver + passenger</span></button>
+                  <button class="choice" data-package="Full Rear">Full Rear<span class="small">Rear section</span></button>
+                  <button class="choice" data-package="Full Vehicle">Full Vehicle<span class="small">Most complete setup</span></button>
+                  <button class="choice" data-package="Windshield Strip">Windshield Strip<span class="small">Top sun strip</span></button>
+                </div>
+                <div class="vehicle-shape" aria-label="Vehicle window selector">
+                  <div class="car-body">
+                    <button class="win front-left active" data-window="Front Left" aria-label="Front left window"></button>
+                    <button class="win front-right active" data-window="Front Right" aria-label="Front right window"></button>
+                    <button class="win rear-left" data-window="Rear Left" aria-label="Rear left window"></button>
+                    <button class="win rear-right" data-window="Rear Right" aria-label="Rear right window"></button>
+                    <button class="win rear-window" data-window="Rear Window" aria-label="Rear window"></button>
+                  </div>
+                </div>
+              </div>
+
+              <div style="margin-top:14px">
+                <p class="label">3. VLT darkness</p>
+                <div class="vlt-strip" data-group="vlt">
+                  <button class="vlt" data-vlt="70" data-addon="0"><b>70%</b><span class="small">Barely tinted</span></button>
+                  <button class="vlt" data-vlt="55" data-addon="0"><b>55%</b><span class="small">Light clean look</span></button>
+                  <button class="vlt" data-vlt="35" data-addon="10"><b>35%</b><span class="small">Adult option</span></button>
+                  <button class="vlt active" data-vlt="20" data-addon="20"><b>20%</b><span class="small">Crowd favourite</span></button>
+                  <button class="vlt" data-vlt="5" data-addon="30"><b>5%</b><span class="small">Privacy mode</span></button>
+                </div>
+              </div>
+            </div>
+
+            <aside class="panel estimate">
+              <p class="label">4. Film type</p>
+              <div class="film-list" data-group="film">
+                <div class="tier">Standard Black</div>
+                <button class="film active" data-film="Madico NR" data-front="260" data-rear="270" data-full="290">Madico NR<span class="small">Clean everyday black tint</span></button>
+                <button class="film" data-film="SunTek Standard" data-front="280" data-rear="290" data-full="310">SunTek Standard<span class="small">Standard black appearance</span></button>
+                <button class="film" data-film="XPEL CS" data-front="290" data-rear="300" data-full="320">XPEL CS<span class="small">Premium standard tier</span></button>
+                <div class="tier">Better Heat Rejection</div>
+                <button class="film" data-film="Madico HP" data-front="300" data-rear="310" data-full="330">Madico HP<span class="small">More heat rejection</span></button>
+                <button class="film" data-film="SunTek Carbon" data-front="320" data-rear="330" data-full="350">SunTek Carbon<span class="small">Carbon performance tier</span></button>
+                <button class="film" data-film="XPEL XR Black" data-front="330" data-rear="340" data-full="360">XPEL XR Black<span class="small">Premium heat rejection</span></button>
+                <div class="tier">Maximum Comfort</div>
+                <button class="film" data-film="Madico Nano Ceramic" data-front="350" data-rear="360" data-full="380">Madico Nano Ceramic<span class="small">Ceramic comfort, no signal drama</span></button>
+                <button class="film" data-film="SunTek CeramicIR" data-front="370" data-rear="380" data-full="400">SunTek CeramicIR<span class="small">High comfort ceramic</span></button>
+                <button class="film" data-film="XPEL XR Plus" data-front="380" data-rear="390" data-full="410">XPEL XR Plus<span class="small">Top comfort tier</span></button>
+              </div>
+
+              <div class="price" id="price">$280</div>
+              <div class="estimate-lines">
+                <div class="line"><span>Setup</span><b id="setupLine">Car • Front Two</b></div>
+                <div class="line"><span>Film</span><b id="filmLine">Madico NR</b></div>
+                <div class="line"><span>VLT add-on</span><b id="vltLine">20% • +$20</b></div>
+              </div>
+              <div class="form">
+                <input id="name" placeholder="Your name" autocomplete="name" />
+                <input id="vehicleInfo" placeholder="Vehicle year / make / model" />
+                <select id="source">
+                  <option>How did you hear about us?</option>
+                  <option>Google</option><option>Facebook / Instagram</option><option>Friend referral</option><option>Saw the vehicle / decal</option>
+                </select>
+                <a id="smsQuote" class="btn primary" href="#" data-track="quote_builder_sms_click">Text This Quote</a>
+                <a class="btn ghost" href="tel:+16479892972" data-track="call_now_click">Call Now</a>
+              </div>
+              <p class="sub" style="font-size:13px;margin-top:12px">Final price is confirmed by text after vehicle details. Because apparently cars come in more shapes than human excuses.</p>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head"><h2>Why people from 20 to 60 can use this without needing a teenager as tech support.</h2></div>
+        <div class="cards">
+          <div class="card"><div class="num">1</div><h3>Fast visual quote</h3><p>No long form. No account. Pick the setup, text it, get a real answer.</p></div>
+          <div class="card"><div class="num">2</div><h3>Mobile install</h3><p>The installer comes to your location. Your driveway becomes the waiting room. Fancy, in a practical way.</p></div>
+          <div class="card"><div class="num">3</div><h3>Pre-cut precision</h3><p>Window patterns are prepared beforehand on a professional plotter for cleaner installation.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head"><h2>Black tint only. Cleaner choice. Cleaner quote.</h2><p class="sub">We focus on black automotive tint because it looks clean, matches almost every vehicle, and keeps the quote simple. No rainbow menu. No mystery packages.</p></div>
+        <div class="cards">
+          <div class="card"><h3>Cars</h3><p>Daily drivers, sedans, hatchbacks, coupes. Clean appearance without turning the process into a spreadsheet funeral.</p></div>
+          <div class="card"><h3>Trucks</h3><p>Front two, rear section, full vehicle, windshield strip. Built for the setups people actually ask for.</p></div>
+          <div class="card"><h3>SUVs & vans</h3><p>More glass, more sun, more reason not to be slow-cooked in traffic.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap split">
+        <div>
+          <div class="section-head"><h2>New concept: tint by scenario, not by confusion.</h2></div>
+          <p class="sub">Instead of forcing people to decode film jargon, the site explains choices by real use: privacy, heat comfort, clean factory look, or full black appearance. Apparently websites can be useful when they stop showing off.</p>
+          <div class="mini-grid">
+            <div class="mini"><b>5%</b><span>Maximum privacy look.</span></div>
+            <div class="mini"><b>20%</b><span>Most popular dark setup.</span></div>
+            <div class="mini"><b>35%</b><span>Cleaner visibility balance.</span></div>
+            <div class="mini"><b>55-70%</b><span>Light protection, subtle look.</span></div>
+          </div>
+        </div>
+        <div class="glass-wall" aria-label="Tint darkness visual concept"></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <h2>How the mobile install works.</h2>
+          <p class="sub">A simple process for people who have jobs, families, trucks, cars, and limited patience for nonsense.</p>
+        </div>
+        <div class="process">
+          <div class="step"><div class="num">1</div><div><strong>Build the setup</strong><p>Pick vehicle type, package, film, and VLT on your phone.</p></div></div>
+          <div class="step"><div class="num">2</div><div><strong>Text the quote</strong><p>The SMS includes your full configuration, so there is less back-and-forth interrogation.</p></div></div>
+          <div class="step"><div class="num">3</div><div><strong>Patterns are prepared</strong><p>Window templates are pre-cut before the install using professional plotter workflow.</p></div></div>
+          <div class="step"><div class="num">4</div><div><strong>Mobile installation</strong><p>The installer comes to your location and installs the prepared film cleanly.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Starting prices, readable by actual humans.</h2>
+          <p class="sub">Final price depends on vehicle, film, VLT, glass condition, and install details.</p>
+        </div>
+        <div class="price-table">
+          <div class="price-tile"><b>$90</b><span>1 window from</span></div>
+          <div class="price-tile"><b>$260</b><span>Front Two from</span></div>
+          <div class="price-tile"><b>$270</b><span>Full Rear from</span></div>
+          <div class="price-tile"><b>$290</b><span>Full Vehicle from</span></div>
+          <div class="price-tile"><b>$130</b><span>Windshield Strip from</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="cta-band">
+          <div>
+            <h2>Ready to price your tint?</h2>
+            <p class="sub">Use the builder and send the quote by text. No appointment maze. No dealership-style ambush.</p>
+          </div>
+          <div class="hero-actions">
+            <a class="btn primary" href="#quote">Build Quote</a>
+            <a class="btn ghost" href="tel:+16479892972" data-track="call_now_click">Call Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head"><h2>FAQ</h2></div>
+        <div class="faq">
+          <details open><summary>Do you install at my location?</summary><p>Yes. Tint Happens is a mobile service for Bradford and the GTA. Exact availability depends on weather, space, and schedule.</p></details>
+          <details><summary>Do you cut film inside the van?</summary><p>No. Window patterns are prepared beforehand on a professional plotter, then installed at your location. No fake sci-fi van laboratory nonsense.</p></details>
+          <details><summary>What does VLT mean?</summary><p>VLT means Visible Light Transmission, the amount of light passing through the glass. Lower percentage means darker tint.</p></details>
+          <details><summary>How do I get the final price?</summary><p>Use the quote builder and text the setup. Final price is confirmed after vehicle details and install conditions.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <b>Tint Happens Inc.</b><br />
+      Mobile truck and car window tinting • Bradford & GTA • +1 647 989 2972<br />
+      Tint Happens is operated by 2533006 Ontario Inc. GST/HST: 754911923 RT0001
+    </div>
+  </footer>
+
+  <div class="sticky-mobile">
+    <a class="btn ghost" href="tel:+16479892972" data-track="call_now_click">Call</a>
+    <a class="btn primary" href="#quote">Build Quote</a>
+  </div>
+
+  <script>
+    const PHONE = '+16479892972';
+    const state = {
+      vehicle: 'Car', package: 'Front Two', film: 'Madico NR', vlt: '20', addon: 20,
+      prices: { front: 260, rear: 270, full: 290 }, windows: ['Front Left', 'Front Right']
+    };
+    const packageWindows = {
+      'Front Two': ['Front Left', 'Front Right'],
+      'Full Rear': ['Rear Left', 'Rear Right', 'Rear Window'],
+      'Full Vehicle': ['Front Left', 'Front Right', 'Rear Left', 'Rear Right', 'Rear Window'],
+      'Windshield Strip': ['Windshield Strip']
+    };
+    const priceEl = document.getElementById('price');
+    const setupLine = document.getElementById('setupLine');
+    const filmLine = document.getElementById('filmLine');
+    const vltLine = document.getElementById('vltLine');
+    const smsQuote = document.getElementById('smsQuote');
+    const nameEl = document.getElementById('name');
+    const vehicleInfoEl = document.getElementById('vehicleInfo');
+    const sourceEl = document.getElementById('source');
+
+    function trackEvent(name) {
+      if (typeof gtag === 'function') gtag('event', name, { event_category: 'lead', event_label: 'Tint Happens Website' });
+    }
+    document.querySelectorAll('[data-track]').forEach(el => el.addEventListener('click', () => trackEvent(el.dataset.track)));
+
+    function setActive(group, target) {
+      document.querySelectorAll(`[data-group="${group}"] .active`).forEach(el => el.classList.remove('active'));
+      target.classList.add('active');
+    }
+    function syncWindows() {
+      document.querySelectorAll('.win').forEach(win => win.classList.toggle('active', state.windows.includes(win.dataset.window)));
+    }
+    function basePrice() {
+      if (state.package === 'Full Rear') return state.prices.rear;
+      if (state.package === 'Full Vehicle') return state.prices.full;
+      if (state.package === 'Windshield Strip') return 130;
+      if (state.package === 'Custom') {
+        const count = state.windows.length;
+        if (count <= 1) return 90;
+        if (count === 2) return state.prices.front;
+        if (count >= 5) return state.prices.full;
+        return Math.round((state.prices.front + (count - 2) * 35) / 10) * 10;
+      }
+      return state.prices.front;
+    }
+    function totalPrice() { return basePrice() + state.addon; }
+    function buildSmsBody() {
+      return `Hi Tint Happens, I want a window tint quote.\n\nName: ${nameEl.value || ''}\nVehicle: ${vehicleInfoEl.value || state.vehicle}\nVehicle type: ${state.vehicle}\nPackage: ${state.package}\nSelected windows: ${state.windows.join(', ')}\nFilm: ${state.film}\nVLT: ${state.vlt}%\nVLT add-on: +$${state.addon}\nEstimate: $${totalPrice()}\nSource: ${sourceEl.value || ''}\n\nPlease confirm final price and availability.`;
+    }
+    function update() {
+      priceEl.textContent = `$${totalPrice()}`;
+      setupLine.textContent = `${state.vehicle} • ${state.package}`;
+      filmLine.textContent = state.film;
+      vltLine.textContent = `${state.vlt}% • +$${state.addon}`;
+      smsQuote.href = `sms:${PHONE}?body=${encodeURIComponent(buildSmsBody())}`;
+      syncWindows();
+    }
+
+    document.querySelectorAll('[data-vehicle]').forEach(btn => btn.addEventListener('click', () => {
+      setActive('vehicle', btn); state.vehicle = btn.dataset.vehicle; update();
+    }));
+    document.querySelectorAll('[data-package]').forEach(btn => btn.addEventListener('click', () => {
+      setActive('package', btn); state.package = btn.dataset.package; state.windows = [...packageWindows[state.package]]; update();
+    }));
+    document.querySelectorAll('[data-vlt]').forEach(btn => btn.addEventListener('click', () => {
+      setActive('vlt', btn); state.vlt = btn.dataset.vlt; state.addon = Number(btn.dataset.addon); update();
+    }));
+    document.querySelectorAll('[data-film]').forEach(btn => btn.addEventListener('click', () => {
+      setActive('film', btn); state.film = btn.dataset.film;
+      state.prices = { front: Number(btn.dataset.front), rear: Number(btn.dataset.rear), full: Number(btn.dataset.full) };
+      update();
+    }));
+    document.querySelectorAll('.win').forEach(win => win.addEventListener('click', () => {
+      state.package = 'Custom';
+      document.querySelectorAll('[data-group="package"] .active').forEach(el => el.classList.remove('active'));
+      const w = win.dataset.window;
+      state.windows = state.windows.includes(w) ? state.windows.filter(x => x !== w) : [...state.windows, w];
+      if (!state.windows.length) state.windows = [w];
+      update();
+    }));
+    [nameEl, vehicleInfoEl, sourceEl].forEach(el => el.addEventListener('input', update));
+    update();
+  </script>
+</body>
+</html>
